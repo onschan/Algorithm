@@ -31,5 +31,6 @@ int solution(vector<vector<int>> board, vector<int> moves) {
             }
         }
     }
+    
     return answer;
 }
