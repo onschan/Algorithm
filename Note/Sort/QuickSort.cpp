@@ -29,3 +29,6 @@ void QuickSort(int* arr, int size, int start, int end) {
 
     return;
 }
+
+// O(NlogN)
+// 이미 정렬되어있는 최악의 경우 O(N^2)
