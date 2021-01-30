@@ -16,7 +16,7 @@ void BFS(int start) {
     visited[start] = true;  // 시작점 체크
     while (!q.empty()) {    // q에 모든 값이 사라질때까지 시행
         int current_node = q.front();  // 현재 노드 -> 큐의 맨 앞 노드
-        q.pop();            // 변수 x 에 q의 맨 처음을 넣어주고 삭제
+        q.pop();            // 큐에서 제거
         cout << current_node << ' '; 
         for (int i = 0; i < graph[current_node].size(); i++) { // 현재 큐에서 꺼낸 현재 노드와 인접한 배열
             int next_node = graph[current_node][i];    // 다음 노드 -> 인접 노드
