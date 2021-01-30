@@ -11,6 +11,5 @@ void SeletionSort(int* arr, int size) {
         }
         SWAP(arr[i],arr[minIndex],temp);
     }
-
     return;
 }
