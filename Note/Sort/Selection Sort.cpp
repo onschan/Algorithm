@@ -1,9 +1,9 @@
 void SeletionSort(int* arr, int size) {
-    int i, min, temp;
+    int minIndex, temp;
     for (int i = 0; i < size; i++) {
-        min = i;
+        minIndex = i;
         for (int j = i; j < size; j++) {
-            if (arr[j] < arr[min]) {
+            if (arr[j] < arr[minIndex]) {
                 min = j;
             }
         }
@@ -13,8 +13,8 @@ void SeletionSort(int* arr, int size) {
         SWAP(arr[i],arr[index],temp);
         */
         temp = arr[i];
-        arr[i] = arr[min];
-        arr[min] = temp;
+        arr[i] = arr[minIndex];
+        arr[minIndex] = temp;
     }
 
     return;
