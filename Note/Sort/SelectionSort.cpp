@@ -1,3 +1,5 @@
+# define SWAP(x, y, temp) ( (temp)=(x), (x)=(y), (y)=(temp) )
+
 void SeletionSort(int* arr, int size) {
     int minIndex, temp;
     for (int i = 0; i < size; i++) {
@@ -7,14 +9,7 @@ void SeletionSort(int* arr, int size) {
                 min = j;
             }
         }
-        /*
-        # define SWAP(x, y, temp) ( (temp)=(x), (x)=(y), (y)=(temp) )
-        
-        SWAP(arr[i],arr[index],temp);
-        */
-        temp = arr[i];
-        arr[i] = arr[minIndex];
-        arr[minIndex] = temp;
+        SWAP(arr[i],arr[minIndex],temp);
     }
 
     return;
