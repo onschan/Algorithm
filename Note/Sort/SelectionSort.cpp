@@ -13,3 +13,5 @@ void SeletionSort(int* arr, int size) {
     }
     return;
 }
+
+// O(N^2)
