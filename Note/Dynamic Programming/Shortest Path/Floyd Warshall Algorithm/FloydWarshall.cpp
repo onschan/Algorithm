@@ -1,5 +1,6 @@
 // 플로이드 와샬 알고리즘 : 모든 정점에서 모든 정점으로의 최단 경로 구하는 알고리즘
 // 2차원 배열에 i > j 로 가는 최단 경로 저장
+// O(N^3)
 
 #define _CRT_SECURE_NO_WARNINGS
 #define number 4
