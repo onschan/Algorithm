@@ -1,4 +1,4 @@
-// BOJ 1946 문제 신입사원
+// BOJ 1946번 문제
 
 #define _CRT_SECURE_NO_WARNINGS
 
