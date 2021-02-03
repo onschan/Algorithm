@@ -1,3 +1,5 @@
+// BOJ 1946 문제 신입사원
+
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
