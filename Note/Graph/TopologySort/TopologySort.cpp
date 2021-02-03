@@ -1,3 +1,6 @@
+// 위상정렬 : 조건의 흐름순으로 일렬로 정렬
+// O(Vertexs+Edeges)
+
 #define _CRT_SECURE_NO_WARNINGS
 #define MAX 10
 
