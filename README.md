@@ -1,3 +1,3 @@
 # Algorithm
 
-> Solving algorithms
+> about algorithms
