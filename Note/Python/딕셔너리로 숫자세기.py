@@ -3,7 +3,6 @@ dic = {}
 
 
 def find_not_repeating_character(string):
-    # 이 부분을 채워보세요!
     for i in string:
         if (i in dic) is False:
             dic[i] = 0
