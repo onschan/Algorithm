@@ -1,3 +1,5 @@
 # Algorithm
 
-> about algorithms
+- 알고리즘 공부 내용 정리
+
+- 프로그래머스 문제 풀이
